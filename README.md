@@ -18,7 +18,7 @@ You can run College BallR on your own machine by pasting the following code into
 packages = c("shiny", "ggplot2", "hexbin", "dplyr", "httr", "jsonlite", "bigrquery", "lubridate")
 install.packages(packages, repos = "https://cran.rstudio.com/")
 library(shiny)
-runGitHub("ballr", "toddwschneider", ref = "college")
+runGitHub("ballr", "dukembb", ref = "college")
 ```
 
 Enter your BigQuery credentials at the top of the sidebar. If it's your first time running the app, switch back to your R console and follow the OAuth prompt on screen. Once that's complete, it takes a few seconds for the app to fetch data from BigQuery, then you should be good to go.
