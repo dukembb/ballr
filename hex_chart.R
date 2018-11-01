@@ -123,7 +123,7 @@ generate_hex_chart = function(hex_data, metric = "bounded_fg_diff", alpha_range 
                             fill = metric, alpha = "hex_attempts"),
                  size = 0) +
          scale_fill_gradientn(paste0(fill_label, "   "),
-                              colors = viridis_colors,
+                              colors = inferno_colors,
                               limit = fill_limit,
                               labels = label_formatter,
                               guide = guide_colorbar(barwidth = 15)) +
