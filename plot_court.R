@@ -7,18 +7,18 @@ circle_points = function(center = c(0, 0), radius = 1, npoints = 360) {
 theme_court = function(base_size = 16) {
   theme_bw(base_size) +
     theme(
-      text = element_text(color = "#000000"),
-      plot.background = element_rect(fill = bg_color, color = bg_color),
-      panel.background = element_rect(fill = bg_color, color = bg_color),
-      panel.grid = element_rect(fill = bg_color, color = bg_color),
-      panel.border = element_rect(fill = bg_color, color = bg_color),
-      axis.text = element_blank(),
-      axis.title = element_blank(),
-      axis.ticks.length = unit(0, "lines"),
-      legend.background = element_rect(fill = bg_color, color = bg_color),
-      legend.position = "bottom",
-      legend.key = element_rect(fill = bg_color, color = bg_color),
-      legend.text = element_text(size = rel(1.0))
+    text = element_text(color = "#000000"),
+    plot.background = element_rect(fill = bg_color, color = bg_color),
+    panel.background = element_rect(fill = bg_color, color = bg_color),
+    panel.grid = element_blank(),
+    panel.border = element_blank(),
+    axis.text = element_blank(),
+    axis.title = element_blank(),
+    axis.ticks.length = unit(0, "lines"),
+    legend.background = element_rect(fill = bg_color, color = bg_color),
+    legend.position = "bottom",
+    legend.key = element_blank(),
+    legend.text = element_text(size = rel(1.0))
     )
 }
 
